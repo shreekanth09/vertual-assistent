@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Object Identification</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Object Identification</h1>
+    <video id="webcam" autoplay playsinline></video>
+    <canvas id="canvas"></canvas>
+    <p id="status">Loading model...</p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
